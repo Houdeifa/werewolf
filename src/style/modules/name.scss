@@ -1,0 +1,39 @@
+div.namediv
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    
+    input
+    {
+        width: 200px;
+        height: 30px;
+    }
+    button
+    {
+        margin-top: 20px;
+        width: 200px;
+        height: 30px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #FFFFFF;
+        background: transparent;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: uppercase;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+        border: 2px solid #FFFFFF;
+    }
+}
