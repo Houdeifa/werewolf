@@ -72,7 +72,7 @@ task("js", js);
 function watch_files(done)
 {
 	watch(styleWatch, style);
-	watch(jsWatch, js);
+	//watch(jsWatch, js);
     done();
 }
 task("watch",watch_files);

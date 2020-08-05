@@ -1,46 +1,58 @@
-div.page ul li
+#ready_page
 {
-    display:inline-block;
-    margin-left: 5px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-}
-div.page ul
-{
-    width: 200px;
-    transform: translate(-13%);
-    float:let;
-}
+    .nouns_div
+    {
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-top: 10%;
+    }
+    ul
+    {
+        display: inline-block;
+        transform: translate(-11%);
+        width: 200px;
+        float:center;
+        li
+        {
+            display:inline-block;
+            margin-left: 5px;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            color: #FFFFFF;
+            font-weight: 700;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: uppercase;
+        }
+    }
 
 
-div.informations
-{
-    margin-top: 120px;
-    width: 100%;
-}
-div.page div.informations button
-{
+    .informations
+    {
+        margin-top: 120px;
+        width: 100%;
+        button
+        {
+
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            color: #FFFFFF;
+            background: transparent;
+            font-weight: 700;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: uppercase;
+            -webkit-border-radius: 20px;
+            border-radius: 20px;
+            border: 2px solid #FFFFFF;
+        }
+    }
     
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: #FFFFFF;
-    background: transparent;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: uppercase;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
-    border: 2px solid #FFFFFF;
 }
+

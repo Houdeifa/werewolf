@@ -79,9 +79,28 @@
 }
 body
 {
-    background-color: coral;
-    background-image: url('../imgs/bg.jpg');
+    background-color: #2c2c53;
+    background-image: url('../../src/imgs/bg.jpg');
+    background-position: center;
     height: 100%;
+    div.bg
+    {
+        &.hide
+        {
+            display: none;
+        }
+        background-image: url('../../src/imgs/moon.png');
+        background-position: center;
+        background-size: 400px;
+        left: 50%;
+        transform: translate(-49%);
+        width: 400px;;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+    }
 }
 html
 {

@@ -1,12 +1,11 @@
 div.buttonlist
 {
-    > div.buttonsdiv > button
+   button
     {
         display: inline-block;
-        margin-bottom: 30%;
-        padding: 5%;
-        margin-left: 50%;
-        transform: translate(-50%);
+        margin-bottom: 50px;
+        width: 200px;
+        height: 40px;
         font-family: Impact, Charcoal, sans-serif;
         font-size: 21px;
         letter-spacing: 0.6px;
@@ -21,14 +20,11 @@ div.buttonlist
         background-color: #333;
         text-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
     } 
-    > div.sel > 
+    &.sel
     {
-        left: 55%;
-    } 
-    > div.sel > button
-    {
-        margin-bottom: 5%;
-    } 
+        -ms-transform: translateY(-5%);
+        transform: translateY(-5%);
+    }  
     div
     {
         display: inline-block;
@@ -39,7 +35,7 @@ div.buttonlist
     }
     div.buttonsdiv div.codediv
     {
-        margin-bottom: 20%;
+        margin-bottom: 100px;
         margin-left: 50%;
     }
     button:hover
@@ -60,10 +56,10 @@ div.buttonlist
     {
         width: 200px;
     }
-    div.buttonsdiv div.codediv textarea
+    input
     {
-        width: 200px;
-        height: 40px;
+        width: 183px;
+        height: 25px;
         font-family: Impact, Charcoal, sans-serif;
         font-size: 21px;
         text-align: center;
@@ -77,7 +73,7 @@ div.buttonlist
         font-family: Impact, Charcoal, sans-serif;
         font-size: 21px;
         color: white;
-        background-color: black;
+        background-color: #460b0b;
 
         margin-left: 50%;
         transform: translate(-50%);
@@ -109,8 +105,20 @@ div.page
         position: absolute;
         top:50%;
         left:50%;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
+        width: 100%;
+        -ms-transform: translateX(-50%) translateY(-37%);
+        transform: translateX(-50%) translateY(-37%);
+    }
+    &#icone_page
+    {
+        top:50%;
+        left:50%;
+        -ms-transform: translateX(-50%) translateY(-55%);
+        transform: translateX(-50%) translateY(-55%);
+        img
+        {
+            width: 300px;
+        }
     }
 }
 
